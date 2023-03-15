@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+table{
+	margin-top: 70px;
+	width: 100%;
+	border-collapse: collapse;
+}
+table tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+table tr:hover{
+	background-color: #ddd;
+}
+tr{
+	text-align: center;
+	font-size: 20px;
+}
+
+td{
+	padding: 20px 5px;
+}
+
+th{
+	padding: 30px 5px;
+	font-size: 25px;
+  	text-align: center;
+  	background-color: #04AA6D;
+  	color: white;
+}
+form{
+	display: none;
+}
+.proj_amount{
+	display: none;
+}

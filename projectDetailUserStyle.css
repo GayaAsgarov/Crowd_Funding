@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.homeLink{
+	font-size: 40px;
+	font-weight: bold;
+	text-decoration: none;
+	color: green;
+}
+.ownerMessage{
+	font-size: 30px;
+	font-weight: bold;
+	color: green;
+}
+
+.notInvest{
+	font-size: 30px;
+	color: red;
+	font-weight: bold;
+}
+.proj_title{
+	margin: 30px 0px;
+	text-align: center;
+}
+.proj_amount{
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+form{
+	text-align: center;
+}
+form label{
+	font-size: 24px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+form .inp{
+	width: 200px;
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+.invest-btn{
+	padding: 10px 35px;
+	background: #fff;
+	border: 3px solid blue;
+	color: blue;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s;
+}
+.invest-btn:hover{
+	background: blue;
+	color: #fff;
+}
+.msg{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: red;
+}

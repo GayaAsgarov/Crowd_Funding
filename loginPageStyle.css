@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+section{
+	width: 100%;
+	height: 100vh;
+	background: #98fb98;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section .container-login{
+	background: #fff;
+	width: 40%;
+	height: 60vh;
+}
+h2{
+	font-size: 36px;
+	text-align: center;
+	margin-top: 60px;
+	color: green;
+ }
+
+.email-con{
+	text-align: center;
+	margin-top: 50px;
+}
+.email-con label{
+	font-size: 20px;
+	color: green;
+}
+.email-con input{
+	width: 400px;
+	height: 40px;
+	margin-left: 67px;
+	outline: none;
+	padding-left: 10px;
+}
+.pass-con{
+	text-align: center;
+	margin-top: 30px;
+}
+.pass-con label{
+	font-size: 20px;
+	color: green;
+}
+.pass-con input{
+	width: 400px;
+	height: 40px;
+	margin-left: 30px;
+	outline: none;
+	padding-left: 10px;
+}
+
+.button-con{
+	text-align: center;
+}
+
+button{
+	padding: 20px 50px;
+	margin-top: 80px;
+	font-size: 20px;
+	border: 3px solid #98fb98;
+	color: #98fb98;
+	background: #fff;
+	cursor: pointer;
+	transition: .5s;
+	font-weight: bold;
+}
+button:hover{
+	color: #fff;
+	background: #98fb98;
+}
